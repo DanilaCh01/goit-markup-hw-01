@@ -20,6 +20,7 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
+        text-decoration: none;
     
         letter-spacing: 0.03em;
     
@@ -478,7 +479,9 @@ color: #212121;
 }
 
 
-
+ul {
+    list-style: none;
+}
 
 
 .team-1 {
@@ -730,6 +733,7 @@ color: #212121;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
+        text-decoration: none;
     
         letter-spacing: 0.03em;
         color:#FFFFFF;
@@ -743,7 +747,7 @@ color: #212121;
     position: absolute;
         width: 231px;
         height: 21px;
-        margin:111px 1154px 120px 215px;
+        margin:20px 1154px 161px 0px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -760,7 +764,7 @@ color: #212121;
     position: absolute;
         width: 136px;
         height: 21px;
-        margin:141px 1249px 90px 215px;
+        margin:50px 1249px 90px 0px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -777,7 +781,7 @@ color: #212121;
     position: absolute;
         width: 231px;
         height: 21px;
-        margin:171px 1154px 60px 215px;
+        margin:80px 1154px 60px 0px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -789,5 +793,7 @@ color: #212121;
     
         color: rgba(255, 255, 255, 0.6);
 }
+
+
 
 */
