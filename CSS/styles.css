@@ -1,5 +1,5 @@
-/*
-.top-line {
+
+.menu {
     position: absolute;
     width: 1600px;
     height: 80px;
@@ -9,7 +9,7 @@
     background: #ffffff;
 }
 
-.WebStudio {
+.logo-1-1 {
     position: absolute;
         width: 145px;
         height: 31px;
@@ -27,7 +27,7 @@
         color: #000000;
 }
 
-.Web {
+.logo-1-2 {
     color:#2196F3;
 }
 
@@ -82,7 +82,7 @@
         letter-spacing: 0.02em;
         text-decoration: none;
     
-        color: #212121;
+        color:#212121;
 }
 
 .contacts {
@@ -122,20 +122,20 @@
 }
 
 .mail:hover {
-    position: absolute;
-        width: 135px;
-        height: 16px;
-        left: 1078px;
-        top: 32px;
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
     
         color: #2196F3;
+}
+
+.tel:hover {
+    color: #2196F3;
+}
+
+.contacts:hover {
+    color: #2196F3;
+}
+
+.portfolio:hover {
+    color: #2196F3;
 }
 
 .tel {
@@ -173,7 +173,9 @@
     position: absolute;
         width: 696px;
         height: 120px;
-        margin:200px 452px 280px 452px;
+        top: 170px;
+        left: 452px;
+        
     
         font-family: 'Roboto';
         font-style: normal;
@@ -192,54 +194,54 @@
     position: absolute;
     width: 216px;
     height: 50px;
-    margin: 360px 724px 210px 724px;
+    top: 350px;
+    left: 692px;
 
 
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 4px solid rgba(255, 255, 255, .015);
+    
+    text-align: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.06em;
+    
+            color: #ffffff;
 }
 
 .button:hover {
     background-color: #188CE8;
 }
 
-.order {
+
+.osobennosti {
     position: absolute;
-        width: 152px;
-        height: 30px;
-        left: 29.5px;
-        top: -7.5px;
-        
-
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 30px;
-
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-    
-        color: #ffffff;
+    width: 1170px;
+    height: 98px;
+    left: 215px;
+    top: 774px;
 }
 
 .osobennosti-1 {
-    position: absolute;     
+    position: absolute;
+    width: 270px;
+    height: 98px;
+    top:0px;
+    left:0px;
 }
 
 .uvaga {
     position: absolute;
         width: 270px;
         height: 16px;
-        left: 215px;
-        top: 774px;
-        padding: 0px;
-
+        top:0px;
+        left:0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -255,9 +257,9 @@
     position: absolute;
         width: 270px;
         height: 72px;
-        left: 215px;
-        top: 800px;
-
+        top: 26px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -271,15 +273,19 @@
 
 .osobennosti-2 {
     position: absolute;
+    width: 270px;
+    height: 74px;
+    top: 0px;
+    left: 300px;
 }
 
 .punct {
     position: absolute;
         width: 270px;
         height: 16px;
-        left: 515px;
-        top: 774px;
-
+        top: 0px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -295,9 +301,9 @@
     position: absolute;
         width: 270px;
         height: 48px;
-        left: 515px;
-        top: 800px;
-
+        top: 26px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -311,6 +317,10 @@
 
 .osobennosti-3 {
     position: absolute;
+    width: 270px;
+    height: 74px;
+    top: 0px;
+    left: 600px;
 }
 
 
@@ -318,9 +328,9 @@
     position: absolute;
         width: 270px;
         height: 16px;
-        left: 815px;
-        top: 774px;
-
+        top: 0px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -336,9 +346,9 @@
     position: absolute;
         width: 270px;
         height: 48px;
-        left: 815px;
-        top: 800px;
-
+        top: 26px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -352,15 +362,19 @@
 
 .osobennosti-4 {
     position: absolute;
+    width: 270px;
+    height: 98px;
+    top: 0px;
+    left: 900px;
 }
 
 .tech {
     position: absolute;
         width: 270px;
         height: 16px;
-        left: 1115px;
-        top: 774px;
-
+        top: 0px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -376,9 +390,9 @@
     position: absolute;
         width: 270px;
         height: 72px;
-        left: 1115px;
-        top: 800px;
-
+        top: 26px;
+        left: 0px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -392,35 +406,39 @@
 
 .zaymaemosya {
     position: absolute;
-        width: 1170px;
-        height: 386px;
-             left: 215px;
-            top: 966px; 
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 966px; 
 }
 
 .chto-delaem {
         position: absolute; 
-width: 366px;
-height: 42px;
-margin:0px 402px 344px 402px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+        width: 366px;
+        height: 42px;
+        top: 0px;
+        left: 402px;
+        margin-top:0px;
+        margin-bottom:0px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+        color: #212121;
 
 }
 
 .photo-1 {
-        position: absolute;
+    position: absolute;
         width: 370px;
         height: 294px;
-      margin: 92px 800px 0px 0px; 
+        left:0px;
+        top:92px;
     
         background: url(imgdesktop.jpg);
         mix-blend-mode: normal;
@@ -430,7 +448,8 @@ color: #212121;
     position: absolute;
         width: 370px;
         height: 294px;
-      margin: 92px 402px 0px 402px;
+        left: 400px;
+        top: 92px;
     
         background: url(imgmobile.jpg);
 }
@@ -439,7 +458,8 @@ color: #212121;
     position: absolute;
         width: 370px;
         height: 294px;
-     margin: 92px 0px 0px 800px;
+        left: 800px;
+        top: 92px;
     
         background: url(imgdesign.jpg);
 }
@@ -458,7 +478,9 @@ color: #212121;
     position: absolute;
         width: 264px;
         height: 42px;
-        margin:94px 668px 512px 668px;
+        top:94px;
+        left:668px;
+        margin:0px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -475,7 +497,8 @@ color: #212121;
     position: absolute;
         width: 1170px;
         height: 368px;
-        margin: 186px 215px 94px 215px;
+        top:186px;
+        left:215px;
 }
 
 
@@ -490,7 +513,8 @@ ul {
         width: 270px;
         height: 368px;
         
-     margin:0px 900px 0px 0px; 
+     top:0px;
+     left:0px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
@@ -500,7 +524,8 @@ ul {
     position: absolute;
         width: 270px;
         height: 368px;
-        margin: 0px 600px 0px 300px;
+        top: 0px;
+        left: 300px;
 
         background: #FFFFFF;
         
@@ -512,7 +537,8 @@ ul {
     position: absolute;
         width: 270px;
         height: 368px;
-        margin: 0px 300px 0px 600px;
+        top: 0px;
+        left: 600px;
 
         background: #FFFFFF;
         
@@ -524,7 +550,8 @@ ul {
     position: absolute;
         width: 270px;
         height: 368px;
-        margin: 0px 0px 0px 900px;
+        top: 0px;
+        left: 900px;
 
         background: #FFFFFF;
         
@@ -539,7 +566,6 @@ ul {
     position: absolute;
         width: 270px;
         height: 260px;
-        margin: 0px 00px 108px 0px;
 
         position: absolute;
             width: 270px;
@@ -550,7 +576,9 @@ ul {
     position: absolute;
         width: 129px;
         height: 19px;
-        margin:290px 970px 59px 71.5px;
+        top: 290px;
+        left: 71px;
+        margin:0px;
     
         font-family:'Roboto';
         font-style: normal;
@@ -568,13 +596,16 @@ ul {
     position: absolute;
         width: 130px;
         height: 19px;
-        margin:319px 70px 30px 70px;
+        top: 319px;
+        left: 70px;
+        margin: 0px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400px;
         font-size: 16px;
         line-height: 19px;
+        white-space:nowrap;
     
         text-align: center;
         letter-spacing: 0.03em;
@@ -593,7 +624,9 @@ ul {
     position: absolute;
         width: 104px;
         height: 19px;
-        margin: 290px 83px 59px 83px;
+        top: 290px;
+        left: 83px;
+        margin: 0px;
 
     
         font-family: 'Roboto';
@@ -612,7 +645,9 @@ ul {
     position: absolute;
         width: 147px;
         height: 19px;
-        margin:319px 61px 30px 62px;
+        top: 319px;
+        left: 62px;
+        margin: 0px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -637,13 +672,16 @@ ul {
     position: absolute;
         width: 130px;
         height: 19px;
-        margin: 290px 0px 59px 0px;
+        top: 290px;
+        left: 70px;
+        margin: 0px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500px;
         font-size: 16px;
         line-height: 19px;
+        white-space: nowrap;
     
         text-align: center;
         letter-spacing: 0.03em;
@@ -655,13 +693,16 @@ ul {
     position: absolute;
         width: 76px;
         height: 19px;
-        margin:319px 97px 30px 97px;
+        top: 319px;
+        left: 97px;
+        margin: 0px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400px;
         font-size: 16px;
         line-height: 19px;
+        white-space: nowrap;
     
         text-align: center;
         letter-spacing: 0.03em;
@@ -680,13 +721,16 @@ ul {
     position: absolute;
         width: 145px;
         height: 19px;
-        margin: 290px 0px 59px 0px;
+        top: 290px;
+        left: 63px;
+        margin: 0px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500px;
         font-size: 16px;
         line-height: 19px;
+        white-space: nowrap;
     
         text-align: center;
         letter-spacing: 0.03em;
@@ -698,7 +742,9 @@ ul {
     position: absolute;
         width: 87px;
         height: 19px;
-        margin:319px 91px 30px 92px;
+        top: 319px;
+        left: 92px;
+        margin: 0px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -726,7 +772,8 @@ ul {
     position: absolute;
         width: 145px;
         height: 31px;
-        margin:60px 1240px 161px 215px;
+        top:60px;
+        left:215px;
     
         font-family: 'Raleway';
         font-style: normal;
@@ -747,13 +794,15 @@ ul {
     position: absolute;
         width: 231px;
         height: 21px;
-        margin:20px 1154px 161px 0px;
+        top:111px;
+        left:215px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+        text-decoration: none;
     
         letter-spacing: 0.03em;
     
@@ -764,13 +813,15 @@ ul {
     position: absolute;
         width: 136px;
         height: 21px;
-        margin:50px 1249px 90px 0px;
+        top: 141px;
+        left: 215px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+        text-decoration: none;
     
         letter-spacing: 0.03em;
     
@@ -781,17 +832,18 @@ ul {
     position: absolute;
         width: 231px;
         height: 21px;
-        margin:80px 1154px 60px 0px;
+        top: 171px;
+        left: 215px;
     
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
+        text-decoration: none;
     
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
 }
 
-*/
